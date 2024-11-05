@@ -18,7 +18,8 @@ def get_parser() -> ArgumentParser:
     parser.add_argument(
         "-a",
         "--agent",
-        default=None,
+        #default="Agent_Using_UCS",
+        default="MyAgent",
         type=str,
         help=(
             "Agent to use, should be name of class in the file lowercase.py,"
