@@ -312,5 +312,5 @@ if __name__ == "__main__":
     # if you don't want to specify arguments for the script you can also
     # call main with desired arguments in list
     # e.g. main(["easy"]),
-    # main(["Aymeric_Hard", "-l=3", "-a=Agent", "--visualize"])
-    main()
+    main(["Aymeric_Hard", "-l=3", "--visualize"])
+    #main()
